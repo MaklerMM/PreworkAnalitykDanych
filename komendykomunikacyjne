@@ -1,0 +1,25 @@
+adres do mojego pierwszego zdalnego repo
+https://github.com/MaklerMM/PreworkAnalitykDanych.git
+
+
+eksport lokalnego repo do zdalnego
+push an existing repository from the command line
+
+git remote add origin https://github.com/MaklerMM/PreworkAnalitykDanych.git
+git push -u origin master
+
+Ściąganie zmian ze zdalnego repozytorium: 
+git pull 
+Scalenie plików ze zdalnego repozytorium z plikami lokalnymi 
+git merge 
+
+
+Wyświetlanie listy wszystkich zdalnych repozytoriów: 
+git remote –v 
+Usuwanie zdalnego repozytorium: 
+git remote remove origin 
+
+Klonowanie istniejącego repozytorium zdalnego wymaga wprowadzenie adresu 
+Twojego repozytorium zdalnego: 
+git clone https://github.com/nazwa_użytkownika/Git-start.git 
+
