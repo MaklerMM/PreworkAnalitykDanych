@@ -8,7 +8,10 @@ push an existing repository from the command line
 git remote add origin https://github.com/MaklerMM/PreworkAnalitykDanych.git
 git push -u origin master
 
-Ściąganie zmian ze zdalnego repozytorium: 
+Ściąganie zmian ze zdalnego repozytorium:
+git branch --set-upstream-to=origin/master
+git pull
+
 git pull 
 Scalenie plików ze zdalnego repozytorium z plikami lokalnymi 
 git merge 
@@ -22,4 +25,3 @@ git remote remove origin
 Klonowanie istniejącego repozytorium zdalnego wymaga wprowadzenie adresu 
 Twojego repozytorium zdalnego: 
 git clone https://github.com/nazwa_użytkownika/Git-start.git 
-
